@@ -4,16 +4,17 @@ import { WelcomeComponent } from './welcome/welcome.component';
 import { TrainingComponent } from './training/training.component';
 export const appRoutes: Route[] = [
   {
-    path: '',
-    component: WelcomeComponent,
-  },
-  {
     path: 'training',
     component: TrainingComponent,
   },
   {
-    path: 'signup',
+    // path: 'signup',
+    path: '',
     component: SignupComponent,
+  },
+  {
+    path: '',
+    component: WelcomeComponent,
   },
   {
     path: '**',
